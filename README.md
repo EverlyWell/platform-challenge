@@ -12,9 +12,11 @@ This project describes a situation that you may face in your day-to-day work at 
 
 ### Scenario
 #### Part 1
-Imagine that you joined Everlywell at the early stages of modernizing their application. Currently, they have a Rails backend application that is hosted on a virtual machine.
+Imagine that you joined Everlywell at the early stages of modernizing their application. Currently, they have a Rails application that uses postgres database that is hosted on a virtual machine.
 
-Deployments are a manual which involves signing into the virtual machine, pulling down the most recent deployment branch and restarting the web server. This workflow is slow and cumbersome, and the company wants you to come up with a way to deploy the api on Kubernetes to take advantage of its many benefits. 
+Deployments are a manual which involves signing into the virtual machine, pulling down the most recent deployment branch and restarting the web server. 
+
+This workflow is slow and cumbersome, and the company wants you to come up with a way to deploy the api on Kubernetes to take advantage of its many benefits. 
 
 A copy of the rails app is located in this repo in the folder `rails_app`.
 
