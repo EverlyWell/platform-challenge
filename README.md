@@ -4,7 +4,7 @@
 This project describes a situation that you may face in your day-to-day work at Everlywell. The goal of this project is to give you the opportunity to demonstrate your ability to solve problems, support your conclusions and communicate to stakeholders.
 
 ### Requirements
-* Spend no more than 4 hours on the project
+* Spend no more than 3 hours on the project
 * Fork this project and work in your repo
 * The tools you use to accomplish the project are your choosing
 * You would need access to compute and storage resources to execute this project
