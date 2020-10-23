@@ -18,7 +18,7 @@ Deployments are a manual which involves signing into the virtual machine, pullin
 
 This workflow is slow and cumbersome, and the company wants you to come up with a way to deploy the api on Kubernetes to take advantage of its many benefits. 
 
-A copy of the rails app is located in this repo in the folder `rails_app`.
+A copy of the rails app is located in this repo in the folder `rails_app`. Containerize and deploy this application to a k8 cluster.
 
 #### Part 2
 Design a pipeline to deploy the rails app to your kubernetes cluster when the master branch is updated. You can use your choice of CI/CD tools for example Gitlab and Github Actions.
