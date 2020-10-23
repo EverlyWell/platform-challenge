@@ -20,18 +20,10 @@ This workflow is slow and cumbersome, and the company wants you to come up with 
 
 A copy of the rails app is located in this repo in the folder `rails_app`.
 
+#### Part 2
+Design a pipeline to deploy the rails app to your kubernetes cluster when the master branch is updated. You can use your choice of CI/CD tools for example Gitlab and Github Actions.
+
 #### Submission
-Submission for this project should be on an actual kubernetes cluster with the app deployed on it. At the time of presentation, we should be able to view the app by entering an IP or a DNS name. All supporting code should be checked into your forked repo.
+Submission for this project should be on an actual kubernetes cluster with the app deployed on it using the pipeline you created. At the time of presentation, we should be able to view the app by entering an IP or a DNS name. All supporting code should be checked into your forked repo including your pipeline yaml.
 
 You should be able to show the final product and delve hands-on into the tools you used in real-time.
-
-#### Part 2
-The data team needs to run some analysis on a database. They ask you to provision a database daily from the most recent RDS snapshot. When the newly created database is ready for connections, run some analytics queries located on an instance in the same VPC. When the queries are done successfully executing and all the useful analysis has been extracted, delete the provisioned RDS instance for this purpose.
-
-Given the above problem, how would you approach fulfilling the request of the data team, assuming that the tasks would take 2 hours to execute end-to-end and the task will need to be repeated daily. 
-
-#### Submission
-The submission should be in the form of a presentation, with a supporting architectural diagram explaining the proposed solution for tackling this repeatable task.
-
-### Bonus
-Design a deployment pipeline to deploy the rails app to your kubernetes cluster when new code is pushed to its remote branch.
